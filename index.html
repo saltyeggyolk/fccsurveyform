@@ -24,7 +24,7 @@
             <input type="email" id="email" name="email" required placeholder="Enter Email Address"><br>
             
             <label id="number-label" for="number">Phone Number: </label>
-            <input type="number" id="number" name="number" required placeholder="Enter Phone Number"><br>
+            <input type="number" id="number" name="number" required min=10000000 max=99999999 placeholder="Enter Phone Number"><br>
             
             <label for="dropdown">Type of Car: </label>
             <select id="dropdown" name="dropdown">
@@ -46,9 +46,10 @@
             <label for="delete">Delete yourself!</label><br>
 
             <label for="comments">Comments: </label>
-            <input type="textarea" id="comments" name="comments" required placeholder="Please enter comments"><br>
+            <textarea></textarea>
 
-            <button name="submit" type="submit" value="submit-true">
+            <br>
+            <button id="submit" name="submit" type="submit" value="submit-true">
                 Submit Form!
             </button>
         </form>
