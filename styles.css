@@ -1,0 +1,33 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    font-weight: bolder;
+}
+
+main {
+    background-color: white;
+    opacity: 90%;
+    padding: 2%;
+    margin: 2%
+    border-radius: 0.5;
+}
+
+input {
+    margin: 10px;
+}
+
+#title {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+#description {
+    font-size: 24px;
+    color: black;
+}
+
